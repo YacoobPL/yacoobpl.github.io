@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grätzlbook - Über Uns</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo"><a href="index.html">Grätzlbook</a></h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Übersicht</a></li>
+                    <li><a href="graetzlbook.html">Über Grätzlbook</a></li>
+                    <li><a href="vernetzedich.html">Vernetze Dich!</a></li>
+                    <li><a href="form.html">Ein neues Projekt einreichen</a></li>
+                    <li><a class="current" href="aboutus.html">Über Uns</a></li>
+                </ul>
+                <a class="burger-menu-icon" src="#" onclick="toggleBurgerMenu()"><img src="burger.png"></img></a>
+                <div class="burger-menu">
+                    <a href="index.html"><span>Übersicht</span></a>
+                    <a href="graetzlbook.html"><span>Über Grätzlbook</span></a>
+                    <a href="vernetzedich.html"><span>Vernetze Dich!</span></a>
+                    <a href="form.html"><span>Ein neues Projekt einreichen</span></a>
+                    <a class="current" href="aboutus.html"><span>Über Uns</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="aboutus-container">
+            <div class="aboutus-content">
+                <h2>Über Uns</h2>
+                <p>Falls du dich gefragt hast, wer die Köpfe hinter Grätzlbook sind: hier sind wir!</p>
+                <p>Wir sind eine Gruppe aus vier Masterstudierenden der Technischen Universität Wien aus den Studiengängen International Cartography und Raumplanung/Raumordnung, die die Idee zur Gründung dieser Plattform im Rahmen der Lehrveranstaltung Webmapping im Sommersemester 2024 fassten.</p>
+                <p>Unsere Vision bei Grätzlbook ist es, lokale Gemeinschaften zu stärken und Menschen näher zusammenzubringen. Wir haben erkannt, dass in einer zunehmend digitalen Welt die persönliche Verbindung oft zu kurz kommt. Mit unserer Plattform wollen wir einen Ort schaffen, an dem sich Grätzlbewohner*innen austauschen, sich gegenseitig unterstützen und gemeinsam an Projekten arbeiten können. Grätzlbook soll daher nicht nur ein Werkzeug für den Austausch sein, sondern auch ein Katalysator für soziale Innovation!</p>
+                <p>Unser Team bringt aufgrund unserer unterschiedlichen Hintergründe in der Kartographie und Raumplanung eine Vielfalt an Fähigkeiten und Erfahrungen mit. Motiviert dadurch,  Menschen zu verbinden und aus Ideen echte Projekte umzusetzen, glauben wir daran, dass die Stärkung von Nachbarschaften einen positiven Einfluss auf das gesamte städtische Leben hat.</p>
+                <p>Du hast Anmerkungen, Fragen oder Feedback zu unserer Plattform? Kontaktiere uns gerne unter info@grätzlbook.at! Wir freuen uns auf deine Nachricht und sind stets bemüht, Grätzlbook weiter zu verbessern und an die Bedürfnisse unserer Nutzer*innen anzupassen. Gemeinsam können wir unsere Nachbarschaften lebendiger und vernetzter gestalten.</p>
+                <div class="team-pics">
+                    <img src="images/kathi.jpg" alt="Kathi">
+                    <p class="team-tags">Kathi</p>
+                    <img src="images/mahyar.jpg" alt="Mahyar">
+                    <p class="team-tags">Mahyar</p>
+                    <img src="images/matteo.jpg" alt="Matteo">
+                    <p class="team-tags">Matteo</p>
+                    <img id="jakub" src="images/jakub.jpg" alt="Jakub">
+                    <p class="team-tags">Jakub</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

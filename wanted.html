@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grätzlbook - Gesucht</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo"><a href="index.html">Grätzlbook</a></h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Übersicht</a></li>
+                    <li><a href="graetzlbook.html">Über Grätzlbook</a></li>
+                    <li><a class="current" href="vernetzedich.html">Vernetze Dich!</a></li>
+                    <li><a href="form.html">Ein neues Projekt einreichen</a></li>
+                    <li><a href="aboutus.html">Über Uns</a></li>
+                </ul>
+                <a class="burger-menu-icon" src="#" onclick="toggleBurgerMenu()"><img src="burger.png"></img></a>
+                <div class="burger-menu">
+                    <a href="index.html"><span>Übersicht</span></a>
+                    <a href="graetzlbook.html"><span>Über Grätzlbook</span></a>
+                    <a class="current" href="vernetzedich.html"><span>Vernetze Dich!</span></a>
+                    <a href="form.html"><span>Ein neues Projekt einreichen</span></a>
+                    <a href="aboutus.html"><span>Über Uns</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="forum-container">
+            <div class="forum-content">
+                <div class="return-button">
+                    <a href="vernetzedich.html">
+                        <p>&#60; Zurück zur Forumsübersicht</p>
+                    </a>
+                </div>
+                <h2>Gesucht:</h2>
+                <table>
+                    <tr>
+                        <th>Thema</th>
+                        <th>Erstellt von</th>
+                        <th>Letzter Beitrag</th>
+                        <th>Antworten</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Urban Gardening Standort im Brunnenviertel gesucht</td></a>
+                        <td>Grätzlgärtnerin</td>
+                        <td>03.06.2024</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Suche Werkzeug für Renovierungsprojekt!</a></td>
+                        <td>PeterParklet</td>
+                        <td>11.06.2024</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Suche Helfer*innen für Gemeinschaftsgarten</td>
+                        <td>GartenGuru1150</td>
+                        <td>16.06.2024</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+                <button class="forum-button">Neues Thema erstellen</button>
+            </div>
+            <div id="postModal" class="modal">
+                <div class="postmodal-content">
+                    <span class="close">&times;</span>
+                    <h2 class="postmodal-title"></h2>
+                    <div class="postmodal-author"></div>
+                    <div class="postmodal-description">
+                        <p></p>
+                    </div> 
+                    <div class="postmodal-comments"></div>
+                    <button class="comment-button">Antworten</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
